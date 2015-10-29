@@ -7,6 +7,7 @@
 	<mkdir name="class"></mkdir>
 	</target>
 	<target name="compile" depends="create">
+	<javac srcdir="C:\Users\PC\git\G53SQM\G53SQM" destdir="class" includeantruntime="true"></javac>
 	</target>
 	<target name="jar" depends="compile">
 	</target>
