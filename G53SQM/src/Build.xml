@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<target name="clean">
+	</target>
+	<target name="create" depends="clean">
+	</target>
+	<target name="compile" depends="create">
+	</target>
+	<target name="jar" depends="compile">
+	</target>
+	<target name="webfiles" depends="jar">
+	</target>
+	<target name="copy" depends="webfiles">
+	</target>
+</project>
