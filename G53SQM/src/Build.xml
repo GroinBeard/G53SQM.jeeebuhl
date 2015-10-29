@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="G53SQM" basedir=".">
 	<target name="clean">
-	<delete dir="classes"></delete>
+	<delete dir="class"></delete>
 	</target>
 	<target name="create" depends="clean">
+	<mkdir name="class"></mkdir>
 	</target>
 	<target name="compile" depends="create">
 	</target>
