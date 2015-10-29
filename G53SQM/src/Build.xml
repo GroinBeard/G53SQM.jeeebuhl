@@ -10,6 +10,11 @@
 	<javac srcdir="C:\Users\PC\git\G53SQM\G53SQM" destdir="class" includeantruntime="true"></javac>
 	</target>
 	<target name="jar" depends="compile">
+	<jar destfile="class\jar\jibble.jar" basedir="class">
+	<manifest>
+	<attribute name="Main-Class" value="g53sqm.jibble.classesMain"/>
+	</manifest>
+	</jar>
 	</target>
 	<target name="webfiles" depends="jar">
 	</target>
