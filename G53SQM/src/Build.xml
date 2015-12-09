@@ -5,7 +5,7 @@
 	</target>
 	<target name="create" depends="clean">
 		<mkdir dir="classes"/>
-		<javac srcdir="C:\Users\PC\git\G53SQM\G53SQM\src\g53sqm\jibble"
+		<javac srcdir="..\src\g53sqm\jibble"
 		 destdir="classes"
 			includeantruntime="true"/>
 	</target>
